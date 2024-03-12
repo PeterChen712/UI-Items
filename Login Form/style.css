@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+}
+
+
+.box{
+    width: 380px;
+    height: 500px;
+    border: 4px solid white;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-image: linear-gradient(45deg, cyan, black);
+}
+
+
+.menu{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border: 2px, solid, white;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+
+input[type="text"][name="nama"] {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+input[type="text"][name="nama"]:hover {
+    width: 220px;
+    height: 50px;
+    box-shadow: 30px 30px 45px rgba(0, 0, 0, 0.1);
+}
+
+
+input[type="password"][name="password"]{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    top: 340px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+input[type="password"][name="password"]:hover{
+    width: 220px;
+    height: 50px;
+    box-shadow: 30px 30px 45px rgba(0, 0, 0, 0.1);
+}
+
+
+
+input[type="submit"]{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: 450px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(64, 64, 222);
+    border: 10px white;
+    transition: width 0.3s ease, height 0.3s ease;
+
+}
+
+input[type="submit"]:hover{
+    box-shadow: 30px 30px 45px rgba(0, 0, 0, 0.1);
+    background-color: rgb(95, 233, 233);
+    color: black;
+    width: 120px;
+    height: 50px;
+}
+
+@keyframes shake {
+    0%,
+    100% {
+        margin-left: 0px;
+    }
+    20%,
+    80% {
+        margin-left: -12px;
+    }
+    40%,
+    60% {
+        margin-left: 12px;
+    }
+}
