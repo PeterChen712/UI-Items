@@ -33,11 +33,23 @@ body {
 
 }
 
+.kotak{
+    background-color: white;
+    width: 300px;
+    height: 340px;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50px;
+    top: 360px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 
 input[type="text"][name="nama"] {
     position: absolute;
-    width: 200px;
+    width: 180px;
     height: 30px;
     top: 250px;
     left: 50%;
@@ -47,22 +59,56 @@ input[type="text"][name="nama"] {
 }
 
 input[type="text"][name="nama"]:hover {
-    width: 220px;
+    width: 200px;
     height: 50px;
     box-shadow: 30px 30px 45px rgba(0, 0, 0, 0.1);
 }
 
+.fa-user{
+    color: #3498db;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+input[type="email"][name="email"]{
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    top: 325px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+input[type="email"][name="email"]:hover{
+    width: 200px;
+    height: 50px;
+    box-shadow: 30px 30px 45px rgba(0, 0, 0, 0.1);
+}
 
 .fa-envelope {
     color: #3498db;
+    position: absolute;
+    top: 325px;
+    left: 200px;
+    transform: translate(-50%, -50%);
+
 }
+
 
 
 input[type="password"][name="password"]{
     position: absolute;
-    width: 200px;
+    width: 180px;
     height: 30px;
-    top: 340px;
+    top: 400px;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 15px;
@@ -70,18 +116,25 @@ input[type="password"][name="password"]{
 }
 
 input[type="password"][name="password"]:hover{
-    width: 220px;
+    width: 200px;
     height: 50px;
     box-shadow: 30px 30px 45px rgba(0, 0, 0, 0.1);
 }
 
+.fa-lock {
+    color: #3498db;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    transform: translate(-50%, -50%);
 
+}
 
 input[type="submit"]{
     position: absolute;
     width: 100px;
     height: 30px;
-    top: 450px;
+    top: 480px;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 15px;
@@ -98,19 +151,4 @@ input[type="submit"]:hover{
     color: black;
     width: 120px;
     height: 50px;
-}
-
-@keyframes shake {
-    0%,
-    100% {
-        margin-left: 0px;
-    }
-    20%,
-    80% {
-        margin-left: -12px;
-    }
-    40%,
-    60% {
-        margin-left: 12px;
-    }
 }
