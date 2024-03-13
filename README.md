@@ -26,4 +26,4 @@ Feel free to explore and use the available assets as needed for your project. If
 
 Thank you for visiting and using this repository as a reference for your project. I hope what I've shared here proves beneficial to you and the project you're working on.
 
-Happy creating!
+Happy creating!.
