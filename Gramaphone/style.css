@@ -1,0 +1,124 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -59%);
+}
+
+.plat{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -59%);
+}
+
+.effect{
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+    border-top: 10px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -59%);
+    animation: spin 4s linear infinite;
+}
+
+.hole{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -59%);
+    animation: spin 4s linear infinite;
+}
+
+.player{
+    width: 2vw;
+    height: 30vh;
+    background-color: gray;
+    position: absolute;
+    top: 45%;
+    left: 58%;
+    transform: translate(-50%, -50%) rotate(20deg);
+}
+
+.pin{
+    width: 3vw;
+    height: 4vh;
+    background-color: brown;
+    position: fixed;
+    top: 58%;
+    left: 54%;
+    transform: translate(-50%, -50%) rotate(20deg);
+}
+
+
+.music{
+    background-color: aqua;
+    width: 10px;
+    height: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -59%);
+    animation: melody 2s linear infinite;
+}
+
+.music:nth-child(1) {
+    left: 35%;
+    animation-delay: 1s;
+}
+
+.music:nth-child(2) {
+    left: 40%;
+}
+.music:nth-child(3) {
+    left: 45%;
+    animation-delay: 1s;
+
+}
+
+.music:nth-child(4) {
+    left: 50%;
+}
+.music:nth-child(5) {
+    left: 55%;
+    animation-delay: 1s;
+}
+
+.music:nth-child(6) {
+    left: 60%;
+}
+.music:nth-child(7) {
+    left: 65%;
+    animation-delay: 1s;
+
+}
+
+
+
+@keyframes spin {
+    from {
+        transform: translate(-50%, -59%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -59%) rotate(360deg);
+    }
+}
+
+@keyframes melody{
+    50%{height: 100px;}
+}
